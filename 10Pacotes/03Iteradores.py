@@ -3,7 +3,7 @@
 # Iteradores implementam dois métodos principais: __iter__() e __next__().
 # __iter__() retorna o próprio iterador e __next__() retorna o próximo valor da coleção.
 # stopiteration é uma exceção que indica o fim da iteração. importante para controlar loops. quando não há mais itens para retornar, o método __next__() levanta essa exceção para sinalizar o fim da iteração.
-
+ 
 print("-----------------------------------------------")
 print("Exemplo 1: Criando um iterador personalizado")
 class meuIterador:
