@@ -39,7 +39,7 @@ print("_____________Metodo ITENS_____________\n")
 itens = contatos.items()
 print("Itens do dicionario contatos:", itens)
 for chave, valor in itens:
-    print(f"Chave: {chave}, Valor: {valor}")
+    print(f"Chave: {chave}, Valor: {valor}") 
 
 print("_____________Metodo KEYS_____________\n")
 # keys() - Retorna uma visão das chaves no dicionário
